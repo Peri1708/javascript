@@ -13,7 +13,12 @@ function game()
     }
     else if(sym=='*')
     {
-        console.log("The sum of numbers is : "+(num1*num2));
+        console.log("The product of numbers is : "+(num1*num2));
+    }
+    
+    else if(sym=='/')
+    {
+        console.log("The quotient of numbers is : "+(num1/num2));
     }
     
 }
