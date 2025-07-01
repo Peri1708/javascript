@@ -20,5 +20,9 @@ function game()
     {
         console.log("The quotient of numbers is : "+(num1/num2));
     }
+    else if(sym=='%')
+    {
+        console.log("The remainder of numbers is : "+(num1/num2));
+    }
     
 }
