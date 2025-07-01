@@ -22,7 +22,7 @@ function game()
     }
     else if(sym=='%')
     {
-        console.log("The remainder of numbers is : "+(num1/num2));
+        console.log("The remainder of numbers is : "+(num1%num2));
     }
     
 }
